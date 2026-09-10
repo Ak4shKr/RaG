@@ -1,11 +1,14 @@
-import { runAgent } from "./src/features/chat/agent";
+import { askWithRag } from './src/features/rag/rag-chat';
 
 async function main() {
-  const response = await runAgent(
-    "What is 12 + 75, what is the current time in Nepal right now, and how many characters are in 'agentic AI uses tools' & how are you able to answer such question?",
+  const response = await askWithRag(
+    'What happens if I enter the wrong password for 4 times, what happen then and how to secure ourselves from gettting blocked?'
   );
 
-  console.log("\nFinal answer:\n", response);
+  console.log('\nFinal answer:\n', response);
 }
 
-main();
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
