@@ -29,3 +29,10 @@ Failed payments should not generate a successful transaction.
 Users can request a refund within 7 days of a successful payment.
 
 Refund processing can take 5-7 business days.
+
+## support
+
+Users can contact support via email or chat.
+If any user get deducted money but no refund is issued,
+then the user can request a refund within 7 days of the transaction.
+you can also have a call with our support team at +91 9876543210.

@@ -2,7 +2,7 @@ import { askWithRag } from './src/features/rag/rag-chat';
 
 async function main() {
   const response = await askWithRag(
-    'What happens if I enter the wrong password for 4 times, what happen then and how to secure ourselves from gettting blocked?'
+    'What happen in case if my payment get deducted but no refund, any contact where I can get a call?'
   );
 
   console.log('\nFinal answer:\n', response);
