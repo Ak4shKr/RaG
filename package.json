@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch index.ts",
+    "dev": "tsx index.ts",
+    "dev:watch": "tsx watch index.ts",
     "index:docs": "tsx src/features/rag/index-docs-cli.ts",
     "rag:demo": "tsx src/features/rag/demo.ts",
     "typecheck": "tsc --noEmit",
